@@ -17,13 +17,14 @@ nav a {
     display: block;
     padding: .5rem;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 h1 {
     color: steelblue;
     border-bottom: 1px solid steelblue;
     padding: 10px;
+    text-align: center;
 }
 
 main img {
@@ -38,7 +39,6 @@ main img {
 
 p {
     padding: 1rem;
-    text-align: left;
 }
 
 .grid {
@@ -61,7 +61,7 @@ aside {
 aside h2 {
     position: absolute;
     color: white;
-    left: 100px;
+    left: 75px;
     top: 135px
 }
 
@@ -76,6 +76,10 @@ aside img {
 header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
+}
+
+footer {
+    border-top: 1px solid black;
     text-align: center;
 }
 
@@ -87,5 +91,4 @@ header, .grid, footer {
     padding: 1rem;
     background-color: steelblue;
     color: white;
-    text-align: left;
 }
