@@ -8,6 +8,53 @@
 
     --heading-font: 'Ojuju', sans-serif;
     --paragraph-font: 'Montserrat', sans-serif;
+
+    --nav-background-color: #31adc5;
+    --nav-link-color: white;
+    --nav-hover-link-color: rgba(255, 255, 255, 0.889);
+    --nav-hover-background-color: #7DAF08;
+}
+
+nav {
+	text-align: center;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+.navigation li {
+	flex-basis: 100%;
+}
+
+.navigation a {
+	display: block;
+    white-space: nowrap;
+    padding: 1rem;
+	text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--nav-link-color);
+}
+
+.navigation a:hover {
+	color: #7DAF08;
+    color: var(--nav-hover-link-color);
+    text-decoration: underline;
+    text-underline-offset: 3rem;
+}
+
+header {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+    align-items: center;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    background-color: var(--nav-background-color);
+    margin-bottom: 1rem;
+}
+
+header img {
+    width: 150px;
+    height: auto;
 }
 
 body {
@@ -21,20 +68,13 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--primary-color);
 }
 
-.sociallinks a {
-    text-decoration: none;
-}
-
-.sociallinks img {
-    height: 50px;
-    width: auto;
-}
-
 .hero {
     position: relative;
 }
 
 .hero img {
+    box-shadow: 0 -1px 10px 5px rgba(0,0,0,0.5);
+    margin-top: .5rem;
     display: block;
     width: 100%;
     height: auto;
@@ -67,4 +107,54 @@ h1,h2,h3,h4,h5,h6 {
     float: right;
     width: 25%;
     height: auto;
+}
+
+.adventure {
+	display: flex;
+	list-style: none;
+    justify-content: space-around;
+}
+
+.adventure figure {
+    margin: 1rem;
+}
+
+.adventure img {
+    width: 200px;
+    height: auto;
+    box-shadow: 0 -1px 10px 5px rgba(0,0,0,0.5);
+}
+
+.historyh2 {
+    text-align: center;
+}
+
+.adventureh2 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    border-top: solid black;
+    margin-top: 2rem;
+}
+
+footer p {
+    padding-right: 10rem;
+}
+
+.sociallinks {
+    text-decoration: none;
+    list-style: none;
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+.sociallinks img {
+    height: 50px;
+    width: auto;
 }
