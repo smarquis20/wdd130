@@ -129,6 +129,18 @@ h1,h2,h3,h4,h5,h6 {
     text-align: center;
 }
 
+.historyh2 img {
+    float: left;
+    width: 25%;
+    height: auto;
+    padding-right: 20px;
+}
+
+.historyh2 p {
+    display: grid;
+    text-align: left;
+}
+
 .adventureh2 {
     text-align: center;
 }
