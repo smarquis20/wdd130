@@ -103,10 +103,6 @@ footer {
     margin: .5rem 0;
 }
 
-/*.column1 textarea {
-    width: 550px;
-}*/
-
 .column2 {
     grid-template-columns: 1fr 3fr;
 }
