@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Reddit+Mono:wght@200..900&family=Montserrat@display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Reddit Mono', monospace;
+    font-size: 1.2em;
+    background: whit;
+    color: Black;
+}
+
+header {
+    margin: 0 auto;
+    width: 700px;
+}
+
+h1 {
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color:navy;
+}
+
+form {
+    width: 700px;
+    display: grid;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    background-color: rgb(231, 222, 222);
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+legend {
+    padding: .5rem;
+    color: navy;
+    font-size: 1.4rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+label, input, button, select, textarea {
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1.3rem;
+    width: 150px;
+}
+
+button:hover {
+    background-color: darkcyan;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 700px;
+    text-align: center;
+    font-size: .8rem;
+    color: black;
+    border-top: 1px solid black;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem 0;
+}
+
+/*.column1 textarea {
+    width: 550px;
+}*/
+
+.column2 {
+    grid-template-columns: 1fr 3fr;
+}
+
+.buttonposition {
+    padding-left: 38%;
+}
