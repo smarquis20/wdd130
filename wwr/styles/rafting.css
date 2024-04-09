@@ -361,7 +361,7 @@ textarea {
     }
 
 .triphead {
-    background-image: url('images/rafting12_1024.jpg');
+    background-image: url(/wwr/images/rafting12_1024.jpg);
     background-position: 50%;
     background-size: cover;
     justify-content: center;
